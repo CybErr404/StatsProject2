@@ -1,4 +1,4 @@
-package StatsLibrary;
+package Code.StatsLibrary;
 
 //Used for permutations and combinations along with some of the probability mass functions.
 import java.math.BigInteger;

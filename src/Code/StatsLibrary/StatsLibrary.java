@@ -1,6 +1,6 @@
-package StatsLibrary;
+package Code.StatsLibrary;
 
-//Import statement for the arrays class.
+//Import statement for the arrays and BigInteger class.
 import java.math.BigInteger;
 import java.util.Arrays;
 //Import statement for the TreeMaps used within the mode method.
