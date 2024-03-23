@@ -561,4 +561,23 @@ public class StatsLibrary {
     public double standardDeviationValuePoissonDistribution(double mean) {
         return Math.sqrt(mean);
     }
+
+    /**
+     * This calculates the results of running Tchebysheff's, or Chebyshev's, theorem.
+     * @param k - represents the "within" number divided by the standard deviation.
+     * @return the result of computing Tchebysheff's theorem on some k.
+     */
+    public double tchebysheffsTheorem(double k) {
+        return 1 - (1 / Math.pow(k, 2));
+    }
+
+    /**
+     * This method calculates what the "k" value in Tchebysheff's theorem represents.
+     * @param within - the "within" number, or how far each value is from the mean.
+     * @param standardDeviation - the standard deviation of the problem.
+     * @return the k value, which is the within number divided by the standard deviation.
+     */
+    public double k(double within, double standardDeviation) {
+        return within / standardDeviation;
+    }
 }

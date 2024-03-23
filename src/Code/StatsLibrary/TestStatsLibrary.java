@@ -270,6 +270,15 @@ public class TestStatsLibrary {
         System.out.println("The result of calculating the expected value for Poisson is: " + poissonExpectedResults);
         System.out.println("The result of calculating the variance for Poisson is: " + poissonVarianceResults);
         System.out.println("The result of calculating the standard deviation for Poisson is: "
-                + poissonStandardDeviationResults);
+                + poissonStandardDeviationResults + "\n");
+
+        //TESTING TCHEBYSHEFF'S THEOREM...
+        System.out.println("TCHEBYSHEFF'S, OR CHEBYSHEV'S, THEOREM");
+        //These statements store the results of performing a Tchebysheff's calculation along with a k value calculation.
+        double tchebysheffsResults = test.tchebysheffsTheorem(2);
+        double tchebysheffsKValueResults = test.k(28, 14);
+        //These two statements print the results of calculating a k value and performing a Tchebysheff's calculation.
+        System.out.println("The result of calculating Tchebysheff's theorem is: " + tchebysheffsResults);
+        System.out.println("The result of calculating a Tchebysheff's k value is: " + tchebysheffsKValueResults + "\n");
     }
 }
