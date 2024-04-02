@@ -1,7 +1,10 @@
 package Code.CSVDataSalter;
 
-public class TestPlotter {
-    public static void main(String[] arg) {
+import java.io.FileNotFoundException;
 
+public class TestPlotter {
+    public static void main(String[] args) throws FileNotFoundException {
+        Plotter test = new Plotter();
+        test.plotter(1, 10);
     }
 }
