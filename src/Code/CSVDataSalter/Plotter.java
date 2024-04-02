@@ -8,7 +8,7 @@ public class Plotter {
     ArrayList<Double> resultArray = new ArrayList<>();
     public void plotter(double start, double end) throws FileNotFoundException {
         PrintWriter writer = new PrintWriter("data.csv");
-        for(int i = (int) start; i <= end; i += 0.1) {
+        for(int i = (int) start; i <= end; i++) {
             double result = formula(i);
             resultArray.add(result);
         }
