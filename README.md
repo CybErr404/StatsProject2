@@ -4,7 +4,7 @@
 **WELCOME TO THE PROBABILITY AND APPLIED STATISTICS PROJECT 2 REPOSITORY!**
 This repository contains documentation, CSV files, a data plotter, salter, and smoother, a formula sheet, and a stats library.
 
-**NAVIGATION** Go through the src folder to find everything!
+**NAVIGATION** Go through the src folder to find code related items. Go through other folders, like WrittenWorks, to find documentation and other information.
 
 **CODE -**
 Contains code from the updated Stats Library and a CSV file Plotter, Salter, and Smoother.
