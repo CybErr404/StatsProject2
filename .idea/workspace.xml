@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added equation graph">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added second formula">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestPlotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestPlotter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/Salter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestSalter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestSalter">
     <configuration name="TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code.CSVDataSalter.TestPlotter" />
       <module name="ProbStatsProject2" />
@@ -50,8 +50,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSalter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code.CSVDataSalter.TestSalter" />
+      <module name="ProbStatsProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.CSVDataSalter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSalter" />
         <item itemvalue="Application.TestPlotter" />
       </list>
     </recent_temporary>
@@ -142,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712073533813</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added second formula">
+      <created>1712258561210</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712258561210</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +188,7 @@
     <MESSAGE value="Added main methods" />
     <MESSAGE value="Finished plotter" />
     <MESSAGE value="Added equation graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added equation graph" />
+    <MESSAGE value="Added second formula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added second formula" />
   </component>
 </project>
