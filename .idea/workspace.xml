@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added second formula">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added salter result files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/Salter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/TestSalter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salt1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/salt1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salt2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/salt2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712258561210</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished simple salter">
+      <created>1712259319613</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712259319613</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added salter result files">
+      <created>1712259346208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712259346208</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +204,8 @@
     <MESSAGE value="Finished plotter" />
     <MESSAGE value="Added equation graph" />
     <MESSAGE value="Added second formula" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added second formula" />
+    <MESSAGE value="Finished simple salter" />
+    <MESSAGE value="Added salter result files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added salter result files" />
   </component>
 </project>
