@@ -1,4 +1,4 @@
-package Code.StatsLibrary;
+package StatsLibrary;
 
 //Import statement for the arrays and BigInteger class.
 import java.math.BigInteger;
@@ -19,8 +19,10 @@ import java.util.TreeMap;
 //the expected value, variance, and standard deviation for binomial distribution, the Geometric
 //Distribution PMF, the expected value, variance, and standard deviation for geometric distribution,
 //the Hypergeometric Distribution PMF, the expected value, variance, and standard deviation for
-//hypergeometric distribution, the Negative Binomial Distribution PMF, and the expected value,
-//variance, and standard deviation for negative binomial distribution.
+//hypergeometric distribution, the Negative Binomial Distribution PMF, the expected value,
+//variance, and standard deviation for negative binomial distribution, Poisson distribution,
+//the expected value, variance, and standard deviation for Poisson distribution, Tchebysheff's
+//theorem, and Tchebysheff's k-value.
 
 /**
  * @author Mia Watts
@@ -579,5 +581,44 @@ public class StatsLibrary {
      */
     public double k(double within, double standardDeviation) {
         return within / standardDeviation;
+    }
+
+    /**
+     * This method calculates the Uniform Probability Distribution value.
+     * @param a - first value of the interval.
+     * @param b - second value of the interval.
+     * @return the uniform distribution value, calculated by dividing 1 by b - a.
+     */
+    public double uniformDistribution(double a, double b) { return 1 / (b - a); }
+
+    /**
+     * This method returns the expected value calculated from Uniform Probability Distribution.
+     * @param theta1 - the first value used within the calculation.
+     * @param theta2 - the second value used within the calculation.
+     * @return the expected value, which also happens to be the actual average.
+     */
+    public double expectedValueUniformDistribution(double theta1, double theta2) {
+        return (theta1 + theta2) / 2;
+    }
+
+    /**
+     * This method returns the variance value obtained from the Uniform Probability Distribution formula.
+     * @param theta1 - the first value used within the calculation.
+     * @param theta2 - the second value used within the calculation.
+     * @return the variance value, which is the way it is because of a proof.
+     */
+    public double varianceValueUniformDistribution(double theta1, double theta2) {
+        return (Math.pow(theta2 - theta1, 2)) / 12;
+    }
+
+    /**
+     * This method calculates the standard deviation of a Uniform Distribution.
+     * It takes the square root of the variance, which is the method shown above this one.
+     * @param theta1 - the first value used within the calculation.
+     * @param theta2 - the second value used within the calculation.
+     * @return the standard deviation of a Uniform Probability Distribution.
+     */
+    public double standardDeviationUniformDistribution(double theta1, double theta2) {
+        return Math.sqrt((Math.pow(theta2 - theta1, 2)) / 12);
     }
 }

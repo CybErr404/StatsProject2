@@ -1,4 +1,4 @@
-package Code.StatsLibrary;
+package StatsLibrary;
 
 //Used for permutations and combinations along with some of the probability mass functions.
 import java.math.BigInteger;
@@ -280,5 +280,25 @@ public class TestStatsLibrary {
         //These two statements print the results of calculating a k value and performing a Tchebysheff's calculation.
         System.out.println("The result of calculating Tchebysheff's theorem is: " + tchebysheffsResults);
         System.out.println("The result of calculating a Tchebysheff's k value is: " + tchebysheffsKValueResults + "\n");
+
+        //TESTING THE UNIFORM PROBABILITY DISTRIBUTION FORMULA...
+        System.out.println("UNIFORM PROBABILITY DISTRIBUTION");
+        //This statement stores the result calculated by using the Uniform Probability Distribution formula.
+        double uniformResults = test.uniformDistribution(3, 10);
+        //This statement prints the results of the Uniform Probability Distribution formula.
+        System.out.println("The results of calculating the Uniform Probability Distribution with a = 3 and b = 10 is: "
+                + uniformResults);
+        //These statements store the results of calculating the expected value, variance, and standard deviation.
+        double expectedValueUniform = test.expectedValueUniformDistribution(10, 5);
+        double varianceValueUniform = test.varianceValueUniformDistribution(10, 5);
+        double standardDeviationUniform = test.standardDeviationUniformDistribution(10, 5);
+        //These statements print the results of the expected value, variance, and standard deviation.
+        System.out.println("The results of calculating the expected value with thetas 10 and 5 is: "
+                + expectedValueUniform);
+        System.out.println("The results of calculating the variance with thetas 10 and 5 is: "
+                + varianceValueUniform);
+        System.out.println("The results of calculating the standard deviation with thetas 10 and 5 is: "
+                + standardDeviationUniform);
+
     }
 }

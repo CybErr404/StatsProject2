@@ -1,4 +1,4 @@
-package Code.CSVDataSalter;
+package CSVJavaDataSalter;
 
 public class Smoother {
 }
