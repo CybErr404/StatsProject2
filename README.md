@@ -4,10 +4,11 @@
 **WELCOME TO THE PROBABILITY AND APPLIED STATISTICS PROJECT 2 REPOSITORY!**
 This repository contains documentation, CSV files, a data plotter, salter, and smoother, a formula sheet, and a stats library.
 
-**NAVIGATION** Go through the src folder to find code related items. Go through other folders, like WrittenWorks, to find documentation and other information.
+**NAVIGATION** Go through the src folder to find code related items. Go through WrittenWorks to find documentation, CSV files, and written reports.
 
 **CODE -**
-Contains code from the updated Stats Library and a CSV file Plotter, Salter, and Smoother.
+Contains code from the updated Stats Library and a CSV file Plotter, Salter, and Smoother written in Java. A Plotter, Salter, and Smoother written
+in Octave as well as a Plotter, Salter, and Smoother using .jar files will eventually be added to the folder.
 
 **Stats Library -** This includes a full list of the following:
 Mean, median, mode, classic variance, classic standard deviation, the mn rule, permutations,
@@ -29,6 +30,6 @@ salt the data (i.e., add "garbage" values to the data to avoid detection) by tak
 
 
 **WRITTEN WORKS -**
-This sections consists of documentation and a formula sheet.
+This sections consists of documentation, written reports, and a formula sheet.
 
-Hopefully you enjoy your stay! Always remember to keep salting your data.
+Hopefully you enjoy your stay! Salt your data.
