@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added salter result files">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated formula method names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salt1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/salt1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salt2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/salt2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code/CSVDataSalter/Plotter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrittenWorks/FormulaSheet/FormulaSheet.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrittenWorks/FormulaSheet/FormulaSheet.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712259346208</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated formula method names">
+      <created>1712427005578</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712427005578</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +211,7 @@
     <MESSAGE value="Added second formula" />
     <MESSAGE value="Finished simple salter" />
     <MESSAGE value="Added salter result files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added salter result files" />
+    <MESSAGE value="Updated formula method names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated formula method names" />
   </component>
 </project>
