@@ -286,19 +286,53 @@ public class TestStatsLibrary {
         //This statement stores the result calculated by using the Uniform Probability Distribution formula.
         double uniformResults = test.uniformDistribution(3, 10);
         //This statement prints the results of the Uniform Probability Distribution formula.
-        System.out.println("The results of calculating the Uniform Probability Distribution with a = 3 and b = 10 is: "
+        System.out.println("The result of calculating the Uniform Probability Distribution with a = 3 and b = 10 is: "
                 + uniformResults);
         //These statements store the results of calculating the expected value, variance, and standard deviation.
-        double expectedValueUniform = test.expectedValueUniformDistribution(10, 5);
-        double varianceValueUniform = test.varianceValueUniformDistribution(10, 5);
-        double standardDeviationUniform = test.standardDeviationUniformDistribution(10, 5);
+        double expectedValueUniformResults = test.expectedValueUniformDistribution(10, 5);
+        double varianceValueUniformResults = test.varianceValueUniformDistribution(10, 5);
+        double standardDeviationUniformResults = test.standardDeviationUniformDistribution(10, 5);
         //These statements print the results of the expected value, variance, and standard deviation.
-        System.out.println("The results of calculating the expected value with thetas 10 and 5 is: "
-                + expectedValueUniform);
-        System.out.println("The results of calculating the variance with thetas 10 and 5 is: "
-                + varianceValueUniform);
-        System.out.println("The results of calculating the standard deviation with thetas 10 and 5 is: "
-                + standardDeviationUniform);
+        System.out.println("The result of calculating the expected value with thetas 10 and 5 is: "
+                + expectedValueUniformResults);
+        System.out.println("The result of calculating the variance with thetas 10 and 5 is: "
+                + varianceValueUniformResults);
+        System.out.println("The result of calculating the standard deviation with thetas 10 and 5 is: "
+                + standardDeviationUniformResults + "\n");
 
+        //TESTING GAMMA DISTRIBUTION...
+        System.out.println("GAMMA DISTRIBUTION");
+        //These statements store the results of calculating the expected value, variance, and standard
+        //deviation of Gamma Distribution.
+        double expectedValueGammaResults = test.expectedValueGammaDistribution(2, 1.6);
+        double varianceValueGammaResults = test.varianceValueGammaDistribution(2, 1.6);
+        double standardDeviationGammaResults = test.standardDeviationGammaDistribution(2, 1.6);
+        //These statements print the results of the expected value, variance, and standard deviation.
+        System.out.println("The result of calculating the expected value for an alpha of 2 and beta of 1.6 is: "
+                + expectedValueGammaResults);
+        System.out.println("The result of calculating the variance value for an alpha of 2 and beta of 1.6 is: "
+                + varianceValueGammaResults);
+        System.out.println("The result of calculating the standard deviation for an alpha of 2 and beta of 1.6 is: "
+                + standardDeviationGammaResults + "\n");
+
+        //TESTING EXPONENTIAL DISTRIBUTION...
+        System.out.println("EXPONENTIAL DISTRIBUTION");
+        //These statements store the results of calculating an exponential distribution, then the expected value,
+        //variance, and standard deviation for the exponential distribution.
+        //This statement says that since alpha isn't 1, there's no exponential distribution.
+        String exponentialDistributionResults1 = test.exponentialDistribution(2, 44, 31);
+        //This statement says that since alpha is 1, there is exponential distribution.
+        String exponentialDistributionResults2 = test.exponentialDistribution(1, 44, 31);
+        double expectedExponentialDistributionResults = test.expectedValueED(44);
+        double varianceExponentialDistributionResults = test.varianceValueED(44);
+        double standardDeviationExponentialDistributionResults = test.standardDeviationED(44);
+        //These statements print the results associated with exponential distribution.
+        System.out.println(exponentialDistributionResults1);
+        System.out.println(exponentialDistributionResults2);
+        System.out.println("The result of calculating the expected value is: " +
+                expectedExponentialDistributionResults);
+        System.out.println("The result of calculating the variance is: " + varianceExponentialDistributionResults);
+        System.out.println("The result of calculating the standard deviation is: " +
+                standardDeviationExponentialDistributionResults);
     }
 }

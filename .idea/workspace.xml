@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Reorganized files">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Reorganized and added to stats library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Plotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/Plotter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/Salter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Smoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/Smoother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestPlotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestPlotter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSalter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSmoother.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StatsLibrary/TestStatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/TestStatsLibrary.java" afterDir="false" />
     </list>
@@ -233,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713294071133</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Reorganized and added to stats library">
+      <created>1713302562649</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713302562649</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +264,7 @@
     <MESSAGE value="Updated formula method names" />
     <MESSAGE value="Updated formula sheet" />
     <MESSAGE value="Reorganized files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized files" />
+    <MESSAGE value="Reorganized and added to stats library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized and added to stats library" />
   </component>
 </project>

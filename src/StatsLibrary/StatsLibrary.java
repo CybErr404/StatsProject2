@@ -621,4 +621,78 @@ public class StatsLibrary {
     public double standardDeviationUniformDistribution(double theta1, double theta2) {
         return Math.sqrt((Math.pow(theta2 - theta1, 2)) / 12);
     }
+
+    /**
+     * This method calculates the expected value as it relates to Gamma Distribution.
+     * @param alpha - the alpha value used to calculate the expected value.
+     * @param beta - the beta (mean) value used to calculate the expected value.
+     * @return the result of multiplying alpha and beta, which is the expected value.
+     */
+    public double expectedValueGammaDistribution(double alpha, double beta) {
+        return alpha * beta;
+    }
+
+    /**
+     * This method calculates the variance of a Gamma Distribution.
+     * @param alpha - the alpha value used to calculate the variance.
+     * @param beta - the beta (mean) value used to calculate the variance.
+     * @return the result of multiplying alpha by beta squared, which is the variance.
+     */
+    public double varianceValueGammaDistribution(double alpha, double beta) {
+        return alpha * (Math.pow(beta, 2));
+    }
+
+    /**
+     * This method calculates the standard deviation of a Gamma Distribution, which is
+     * the square root of the variance.
+     * @param alpha - the alpha value used to calculate the standard deviation.
+     * @param beta - the beta (mean) value used to calculate the standard deviation.
+     * @return the square root of the variance, which is the standard deviation.
+     */
+    public double standardDeviationGammaDistribution(double alpha, double beta) {
+        return Math.sqrt(alpha * (Math.pow(beta, 2)));
+    }
+
+    /**
+     * This method calculates the result of an exponential distribution with a beta (mean) and y value.
+     * This can only occur if alpha is equal to 1.
+     * @param beta - the beta value associated with exponential distribution (the mean).
+     * @param y - the y value associated with exponential distribution.
+     * @return the exponential distribution result. If alpha is not 1, the program returns
+     * a statement that tells the user that the problem they gave is not exponential in its distribution.
+     */
+    public String exponentialDistribution(double alpha, double beta, double y) {
+        if(alpha != 1.0) {
+            return "An alpha value of " + alpha + " is not possible. Alpha must be 1.";
+        }
+        return "Alpha is 1, so the result can be calculated: " + (1 / beta) * (Math.pow(Math.E, (-y / beta)));
+    }
+
+    /**
+     * This method returns the expected value of an exponential distribution which also happens
+     * to be the beta value given, or the mean.
+     * @param beta - the mean value associated with exponential distribution.
+     * @return the beta value, which is the expected value related to exponential distribution.
+     */
+    public double expectedValueED(double beta) {
+        return beta;
+    }
+
+    /**
+     * This method calculates the variance of an exponential distribution, which is beta multiplied by beta.
+     * @param beta - the mean value associated with exponential distribution.
+     * @return the variance value, which is beta squared.
+     */
+    public double varianceValueED(double beta) {
+        return Math.pow(beta, 2);
+    }
+
+    /**
+     * This method calculates the standard deviation of an exponential distribution instance.
+     * @param beta - the mean value associated with exponential distribution.
+     * @return the standard deviation of an exponential distribution.
+     */
+    public double standardDeviationED(double beta) {
+        return beta;
+    }
 }
