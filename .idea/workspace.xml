@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Reprogrammed plotter">
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ActualFiles/CosinePlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ActualFiles/PolynomialPlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ActualFiles/SinePlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataPlotter/TestPlotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataPlotter/TestPlotter.java" afterDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Edited file structure">
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713365245812</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Edited file structure">
+      <created>1713365771494</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713365771494</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +305,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created second project repository" />
     <MESSAGE value="Added second project stats library" />
-    <MESSAGE value="Edited file structure" />
     <MESSAGE value="Reworked files and added formula sheet" />
     <MESSAGE value="Added Tchebysheff's theorem" />
     <MESSAGE value="Created files for plot/salt/smooth project" />
@@ -319,6 +323,7 @@
     <MESSAGE value="Removed strange file" />
     <MESSAGE value="Reorganized file structure" />
     <MESSAGE value="Reprogrammed plotter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reprogrammed plotter" />
+    <MESSAGE value="Edited file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited file structure" />
   </component>
 </project>
