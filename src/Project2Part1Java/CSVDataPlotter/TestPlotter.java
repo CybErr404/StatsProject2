@@ -7,8 +7,8 @@ public class TestPlotter {
         Plotter polynomialFormulaPlot = new Plotter();
         Plotter sineFormulaPlot = new Plotter();
         Plotter cosineFormulaPlot = new Plotter();
-        polynomialFormulaPlot.polynomialPlotter(-8, 8);
-        sineFormulaPlot.sinePlotter(-5, 5);
-        cosineFormulaPlot.cosineWavesPlotter(-10, 10);
+        polynomialFormulaPlot.polynomialPlotter(-100, 100);
+        sineFormulaPlot.sinePlotter(-100, 100);
+        cosineFormulaPlot.cosineWavesPlotter(-100, 100);
     }
 }
