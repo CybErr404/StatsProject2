@@ -4,9 +4,11 @@ import java.io.FileNotFoundException;
 
 public class TestPlotter {
     public static void main(String[] args) throws FileNotFoundException {
-        Plotter testFormula1 = new Plotter();
-        Plotter testFormula2 = new Plotter();
-        testFormula1.polynomialPlotter(1, 10);
-        testFormula2.sinePlotter(1, 10);
+        Plotter polynomialFormulaPlot = new Plotter();
+        Plotter sineFormulaPlot = new Plotter();
+        Plotter cosineFormulaPlot = new Plotter();
+        polynomialFormulaPlot.polynomialPlotter(-8, 8);
+        sineFormulaPlot.sinePlotter(-5, 5);
+        cosineFormulaPlot.cosineWavesPlotter(-10, 10);
     }
 }
