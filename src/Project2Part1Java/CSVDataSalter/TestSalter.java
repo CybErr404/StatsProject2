@@ -1,4 +1,4 @@
-package CSVJavaDataSalter;
+package Project2Part1Java.CSVDataSalter;
 
 import java.io.FileNotFoundException;
 

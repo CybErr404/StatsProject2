@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Removed strange file" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Reorganized file structure">
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Plotter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Salter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/Smoother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestPlotter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSalter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSVJavaDataSalter/TestSmoother.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713362358406</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Reorganized file structure">
+      <created>1713362706021</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713362706021</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +291,7 @@
     <MESSAGE value="Reorganized and added to stats library" />
     <MESSAGE value="Added to stats library" />
     <MESSAGE value="Removed strange file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed strange file" />
+    <MESSAGE value="Reorganized file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized file structure" />
   </component>
 </project>
