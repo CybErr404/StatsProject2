@@ -9,7 +9,7 @@ public class Salter {
     ArrayList<Double> resultArray = new ArrayList<>();
     ArrayList<Double> saltArray = new ArrayList<>();
     public void polynomialSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("PolynomialSalterResults200.csv");
+        PrintWriter writer = new PrintWriter("PolynomialSalterResults.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = polynomialFormula(i);
             resultArray.add(result);
@@ -31,7 +31,7 @@ public class Salter {
     }
 
     public void sineSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("SineSalterResults200.csv");
+        PrintWriter writer = new PrintWriter("SineSalterResults.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = sineFormula(i);
             resultArray.add(result);
@@ -53,7 +53,7 @@ public class Salter {
     }
 
     public void cosineWavesSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("CosineSalterResults200.csv");
+        PrintWriter writer = new PrintWriter("CosineSalterResults.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = cosineWavesFormula(i);
             resultArray.add(result);
