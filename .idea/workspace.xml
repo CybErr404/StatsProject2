@@ -35,13 +35,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Project2Part1Java.CSVDataPlotter.TestPlotter">
+  <component name="RunManager" selected="Application.Project2Part1Java.CSVDataSalter.TestSalter">
     <configuration name="Project2Part1Java.CSVDataPlotter.TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataPlotter.TestPlotter" />
       <module name="ProbStatsProject2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Project2Part1Java.CSVDataPlotter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project2Part1Java.CSVDataSalter.TestSalter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataSalter.TestSalter" />
+      <module name="ProbStatsProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project2Part1Java.CSVDataSalter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project2Part1Java.CSVDataSalter.TestSalter" />
         <item itemvalue="Application.Project2Part1Java.CSVDataPlotter.TestPlotter" />
         <item itemvalue="Application.TestStatsLibrary" />
         <item itemvalue="Application.TestSalter" />
