@@ -9,14 +9,14 @@ public class Salter {
     ArrayList<Double> resultArray = new ArrayList<>();
     ArrayList<Double> saltArray = new ArrayList<>();
     public void polynomialSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("PolynomialSalterResults.csv");
+        PrintWriter writer = new PrintWriter("PolynomialSalterResults200.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = polynomialFormula(i);
             resultArray.add(result);
         }
         for(int i = 0; i < resultArray.size(); i++) {
             Random randomNumber = new Random();
-            int randomSaltValue = randomNumber.nextInt(50);
+            int randomSaltValue = randomNumber.nextInt(200);
             if(i % 2 == 0) {
                 saltArray.add(resultArray.get(i) + randomSaltValue);
             }
@@ -31,14 +31,14 @@ public class Salter {
     }
 
     public void sineSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("SineSalterResults.csv");
+        PrintWriter writer = new PrintWriter("SineSalterResults200.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = sineFormula(i);
             resultArray.add(result);
         }
         for(int i = 0; i < resultArray.size(); i++) {
             Random randomNumber = new Random();
-            int randomSaltValue = randomNumber.nextInt(50);
+            int randomSaltValue = randomNumber.nextInt(200);
             if(i % 2 == 0) {
                 saltArray.add(resultArray.get(i) + randomSaltValue);
             }
@@ -53,14 +53,14 @@ public class Salter {
     }
 
     public void cosineWavesSalter(double start, double end) throws FileNotFoundException {
-        PrintWriter writer = new PrintWriter("CosineSalterResults.csv");
+        PrintWriter writer = new PrintWriter("CosineSalterResults200.csv");
         for(int i = (int) start; i <= end; i++) {
             double result = cosineWavesFormula(i);
             resultArray.add(result);
         }
         for(int i = 0; i < resultArray.size(); i++) {
             Random randomNumber = new Random();
-            int randomSaltValue = randomNumber.nextInt(50);
+            int randomSaltValue = randomNumber.nextInt(200);
             if(i % 2 == 0) {
                 saltArray.add(resultArray.get(i) + randomSaltValue);
             }

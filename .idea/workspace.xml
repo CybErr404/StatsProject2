@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Edited file structure">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added salting results">
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/CosineSalterResults.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/PolynomialSalterResults.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SineSalterResults.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713365771494</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Fixed Java salter">
+      <created>1713366113829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713366113829</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added salting results">
+      <created>1713366204934</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713366204934</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +354,8 @@
     <MESSAGE value="Reorganized file structure" />
     <MESSAGE value="Reprogrammed plotter" />
     <MESSAGE value="Edited file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited file structure" />
+    <MESSAGE value="Fixed Java salter" />
+    <MESSAGE value="Added salting results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added salting results" />
   </component>
 </project>
