@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Uploaded stock file">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Deleted random file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WrittenWorks/MATLABResultsReport.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/MATLABResultsReport.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713660646678</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Worked on smoother and added MATLAB reports">
+      <created>1713897956792</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713897956792</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Deleted random file">
+      <created>1713898040718</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713898040718</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,8 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added second project stats library" />
-    <MESSAGE value="Reworked files and added formula sheet" />
     <MESSAGE value="Added Tchebysheff's theorem" />
     <MESSAGE value="Created files for plot/salt/smooth project" />
     <MESSAGE value="Renamed data salter project files" />
@@ -386,6 +397,8 @@
     <MESSAGE value="Added several result files" />
     <MESSAGE value="Added comments" />
     <MESSAGE value="Uploaded stock file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploaded stock file" />
+    <MESSAGE value="Worked on smoother and added MATLAB reports" />
+    <MESSAGE value="Deleted random file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted random file" />
   </component>
 </project>
