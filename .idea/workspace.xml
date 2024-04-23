@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added comments">
-      <change afterPath="$PROJECT_DIR$/src/StockBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestStockBot.java" afterDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Uploaded stock file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStockBot">
+  <component name="RunManager" selected="Application.TestSmoother">
     <configuration name="Project2Part1Java.CSVDataPlotter.TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataPlotter.TestPlotter" />
       <module name="ProbStatsProject2" />
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSalter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code.CSVDataSalter.TestSalter" />
+    <configuration name="TestSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataSmoother.TestSmoother" />
       <module name="ProbStatsProject2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Code.CSVDataSalter.*" />
+          <option name="PATTERN" value="Project2Part1Java.CSVDataSmoother.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSmoother" />
+        <item itemvalue="Application.Project2Part1Java.CSVDataPlotter.TestPlotter" />
         <item itemvalue="Application.TestStockBot" />
         <item itemvalue="Application.Project2Part1Java.CSVDataSalter.TestSalter" />
-        <item itemvalue="Application.Project2Part1Java.CSVDataPlotter.TestPlotter" />
         <item itemvalue="Application.TestStatsLibrary" />
-        <item itemvalue="Application.TestSalter" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713369963133</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Uploaded stock file">
+      <created>1713660646678</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713660646678</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +361,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created second project repository" />
     <MESSAGE value="Added second project stats library" />
     <MESSAGE value="Reworked files and added formula sheet" />
     <MESSAGE value="Added Tchebysheff's theorem" />
@@ -379,6 +385,7 @@
     <MESSAGE value="Added salting results" />
     <MESSAGE value="Added several result files" />
     <MESSAGE value="Added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments" />
+    <MESSAGE value="Uploaded stock file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploaded stock file" />
   </component>
 </project>
