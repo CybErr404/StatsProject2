@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated MATLAB materials">
-      <change afterPath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JARPlotterSalterSmoother.java" afterDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added base JAR program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProbStatsProject2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProbStatsProject2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/arcti/IdeaProjects/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestSmoother">
     <configuration name="Project2Part1Java.CSVDataPlotter.TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataPlotter.TestPlotter" />
@@ -387,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713974123878</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added base JAR program">
+      <created>1713974827281</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713974827281</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Renamed data salter project files" />
     <MESSAGE value="Added main methods" />
     <MESSAGE value="Finished plotter" />
     <MESSAGE value="Added equation graph" />
@@ -427,6 +437,7 @@
     <MESSAGE value="Deleted random file" />
     <MESSAGE value="Finished MATLAB work" />
     <MESSAGE value="Updated MATLAB materials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated MATLAB materials" />
+    <MESSAGE value="Added base JAR program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added base JAR program" />
   </component>
 </project>
