@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Deleted random file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/MATLABResultsReport.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/MATLABResultsReport.docx" afterDir="false" />
-    </list>
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished MATLAB work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -359,7 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1713898040718</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Finished MATLAB work">
+      <created>1713905614467</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905614467</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Finished MATLAB work">
+      <created>1713905628327</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905628327</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Finished MATLAB work">
+      <created>1713905707284</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905707284</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Tchebysheff's theorem" />
     <MESSAGE value="Created files for plot/salt/smooth project" />
     <MESSAGE value="Renamed data salter project files" />
     <MESSAGE value="Added main methods" />
@@ -399,6 +416,7 @@
     <MESSAGE value="Uploaded stock file" />
     <MESSAGE value="Worked on smoother and added MATLAB reports" />
     <MESSAGE value="Deleted random file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted random file" />
+    <MESSAGE value="Finished MATLAB work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished MATLAB work" />
   </component>
 </project>
