@@ -1,4 +1,4 @@
-package Project2Part3JARs.CSVJARDataPlotSaltSmooth;
+package Project2Part3JARs;
 
 public class ApacheCommonsPlotterSalterSmoother {
 }

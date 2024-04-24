@@ -1,4 +1,4 @@
-package Project2Part3JARs.CSVJARDataPlotSaltSmooth;
+package Project2Part3JARs;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

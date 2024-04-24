@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated file structure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JFreeChartPlotterSalterSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JFreeChartPlotterSalterSmoother.java" afterDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished JFreeChart plotter">
+      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/ApacheCommonsPlotterSalterSmoother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JFreeChartPlotterSalterSmoother.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714001340065</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Finished JFreeChart plotter">
+      <created>1714002640248</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1714002640248</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished simple salter" />
     <MESSAGE value="Added salter result files" />
     <MESSAGE value="Updated formula method names" />
     <MESSAGE value="Updated formula sheet" />
@@ -467,6 +473,7 @@
     <MESSAGE value="Imported remaining JARs and added files" />
     <MESSAGE value="Started JAR plotter" />
     <MESSAGE value="Updated file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
+    <MESSAGE value="Finished JFreeChart plotter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished JFreeChart plotter" />
   </component>
 </project>
