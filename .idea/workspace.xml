@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished MATLAB work" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated MATLAB materials">
+      <change afterPath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JARPlotterSalterSmoother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -377,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713905707284</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Updated MATLAB materials">
+      <created>1713974123878</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1713974123878</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created files for plot/salt/smooth project" />
     <MESSAGE value="Renamed data salter project files" />
     <MESSAGE value="Added main methods" />
     <MESSAGE value="Finished plotter" />
@@ -417,6 +426,7 @@
     <MESSAGE value="Worked on smoother and added MATLAB reports" />
     <MESSAGE value="Deleted random file" />
     <MESSAGE value="Finished MATLAB work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished MATLAB work" />
+    <MESSAGE value="Updated MATLAB materials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated MATLAB materials" />
   </component>
 </project>
