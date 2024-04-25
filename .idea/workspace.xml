@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated file structure">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished JFreeChart plot and salt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/ApacheCommonsPlotterSalterSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part3JARs/ApacheCommonsPlotterSalterSmoother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Project2Part3JARs.JFreeChartPlotterSalterSmoother">
+  <component name="RunManager" selected="Application.Project2Part5StockBot.TestStockBot">
     <configuration name="JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.CSVJARDataPlotSaltSmooth.JFreeChartPlotterSalterSmoother" />
       <module name="ProbStatsProject2" />
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project2Part1Java.CSVDataPlotter.TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataPlotter.TestPlotter" />
+    <configuration name="Project2Part3JARs.JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
       <module name="ProbStatsProject2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2Part1Java.CSVDataPlotter.*" />
+          <option name="PATTERN" value="Project2Part3JARs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project2Part3JARs.JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
+    <configuration name="Project2Part5StockBot.TestStockBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part5StockBot.TestStockBot" />
       <module name="ProbStatsProject2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2Part3JARs.*" />
+          <option name="PATTERN" value="Project2Part5StockBot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project2Part5StockBot.TestStockBot" />
+        <item itemvalue="Application.TestStockBot" />
         <item itemvalue="Application.Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.TestSmoother" />
-        <item itemvalue="Application.Project2Part1Java.CSVDataPlotter.TestPlotter" />
-        <item itemvalue="Application.TestStockBot" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714002758517</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Finished JFreeChart plot and salt">
+      <created>1714005396622</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1714005396622</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added salter result files" />
     <MESSAGE value="Updated formula method names" />
     <MESSAGE value="Updated formula sheet" />
     <MESSAGE value="Reorganized files" />
@@ -481,6 +487,7 @@
     <MESSAGE value="Started JAR plotter" />
     <MESSAGE value="Finished JFreeChart plotter" />
     <MESSAGE value="Updated file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
+    <MESSAGE value="Finished JFreeChart plot and salt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished JFreeChart plot and salt" />
   </component>
 </project>

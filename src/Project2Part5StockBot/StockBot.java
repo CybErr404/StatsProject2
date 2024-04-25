@@ -1,3 +1,5 @@
+package Project2Part5StockBot;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -1,3 +1,5 @@
+package Project2Part5StockBot;
+
 import java.io.IOException;
 
 public class TestStockBot {
