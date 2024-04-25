@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished base smoother">
-      <change beforePath="$PROJECT_DIR$/src/Project2Part5StockBot/NTDOY.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part5StockBot/StockBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part5StockBot/TestStockBot.java" beforeDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Edited file structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,20 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added main methods">
-      <created>1711221266381</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1711221266381</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Finished plotter">
-      <created>1712072942908</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712072942908</updated>
     </task>
     <task id="LOCAL-00010" summary="Finished plotter">
       <created>1712073214095</created>
@@ -463,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714065219939</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Edited file structure">
+      <created>1714066614211</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1714066614211</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Edited file structure">
+      <created>1714066705357</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1714066705357</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +479,6 @@
     <MESSAGE value="Removed strange file" />
     <MESSAGE value="Reorganized file structure" />
     <MESSAGE value="Reprogrammed plotter" />
-    <MESSAGE value="Edited file structure" />
     <MESSAGE value="Fixed Java salter" />
     <MESSAGE value="Added salting results" />
     <MESSAGE value="Added several result files" />
@@ -503,6 +500,7 @@
     <MESSAGE value="Fixed original salter" />
     <MESSAGE value="Started official smoother" />
     <MESSAGE value="Finished base smoother" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished base smoother" />
+    <MESSAGE value="Edited file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited file structure" />
   </component>
 </project>
