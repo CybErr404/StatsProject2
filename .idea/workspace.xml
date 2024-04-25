@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Rearranged files">
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/PlotterResults/CosinePlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/PlotterResults/PolynomialPlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/PlotterResults/SinePlotterResults.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue100/CosineSalterResults100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue100/PolynomialSalterResults100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue100/SineSalterResults100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue150/CosineSalterResults150.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue150/PolynomialSalterResults150.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue150/SineSalterResults150.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue200/CosineSalterResults200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue200/PolynomialSalterResults200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue200/SineSalterResults200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue50/CosineSalterResults50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue50/PolynomialSalterResults50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/ResultFiles/SalterResults/SaltValue50/SineSalterResults50.csv" beforeDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated file structure">
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/TrialFiles/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/TrialFiles/data1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/TrialFiles/data2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/TrialFiles/salt1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlotterSalterSmootherCSVResults/TrialFiles/salt2.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,27 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Created second project repository">
-      <created>1711051451644</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1711051451644</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added second project stats library">
-      <created>1711051545875</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1711051545875</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Edited file structure">
-      <created>1711062161303</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1711062161303</updated>
     </task>
     <task id="LOCAL-00004" summary="Reworked files and added formula sheet">
       <created>1711219216559</created>
@@ -468,7 +437,35 @@
       <option name="project" value="LOCAL" />
       <updated>1714012486258</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Removed older files">
+      <created>1714012601739</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012601739</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Removed older files">
+      <created>1714012610147</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012610148</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Rearranged files">
+      <created>1714012705906</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012705906</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Updated file structure">
+      <created>1714012822016</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012822016</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated formula sheet" />
     <MESSAGE value="Reorganized files" />
     <MESSAGE value="Reorganized and added to stats library" />
     <MESSAGE value="Added to stats library" />
@@ -505,9 +501,10 @@
     <MESSAGE value="Imported remaining JARs and added files" />
     <MESSAGE value="Started JAR plotter" />
     <MESSAGE value="Finished JFreeChart plotter" />
-    <MESSAGE value="Updated file structure" />
     <MESSAGE value="Finished JFreeChart plot and salt" />
+    <MESSAGE value="Removed older files" />
     <MESSAGE value="Rearranged files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged files" />
+    <MESSAGE value="Updated file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
   </component>
 </project>
