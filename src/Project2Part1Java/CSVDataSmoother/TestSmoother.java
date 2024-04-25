@@ -5,6 +5,8 @@ import java.io.IOException;
 public class TestSmoother {
     public static void main(String[] arg) throws IOException {
         Smoother test = new Smoother();
-        test.smooth("SinePlotterResults", 5000, 5000);
+        test.polynomialDataSmoother("PolynomialSalterResults.csv");
+        test.sineDataSmoother("SineSalterResults.csv");
+        test.cosineDataSmoother("CosineSalterResults.csv");
     }
 }

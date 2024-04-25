@@ -4,55 +4,62 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Smoother {
-    public void smooth(String filename, int leftBound, int rightBound) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(filename));
-        ArrayList<Integer> saltedData = new ArrayList<>();
-        FileWriter fileWriter = new FileWriter("SmoothedPolynomialResults.csv");
-        BufferedWriter writer = new BufferedWriter(fileWriter);
-        String currentLine = "";
-        String[] values;
-        try {
-            while ((currentLine = reader.readLine()) != null) {
-                values = currentLine.split(",");
-                int value = Integer.parseInt(values[0]);
-                saltedData.add(value);
+    ArrayList<Double> saltArray = new ArrayList<>();
+    ArrayList<Double> smoothedArray = new ArrayList<>();
+    public void polynomialDataSmoother(String file) throws IOException {
+        //Creates a new BufferedReader object that will read the plotter results file.
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        //Declares a variable that will hold the current line in the file.
+        String currentLine;
+        //While loop that continues until the next line is empty.
+        while((currentLine = reader.readLine()) != null) {
+            //Stores values found within the file into an array, splitting each by commas.
+            String[] values = currentLine.split(",");
+            //For loop that adds all values in the array to the result ArrayList.
+            for (String value : values) {
+                //Adds information to the result array.
+                saltArray.add(Double.valueOf(value));
             }
+        }
+        //Creates the PrintWriter object that will be used to write values to the CSV file.
+        PrintWriter writer = new PrintWriter("PolynomialSmootherResults.csv");
+    }
 
-            //0, 1, 2, 3, 4, 5, 6, 7, 8, 9,  10, 11
-            //1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-            double sum = 0;
-            int count = 0;
-            for (int i = 0; i < saltedData.size(); i++) {
-                if (i >= leftBound || i <= rightBound) {
-                    sum = sum + saltedData.get(i);
-                    count++;
-                }
-//            else if(i > (saltedData.size() - bound)) {
-//
-//            }
+    public void sineDataSmoother(String file) throws IOException {
+        //Creates a new BufferedReader object that will read the plotter results file.
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        //Declares a variable that will hold the current line in the file.
+        String currentLine;
+        //While loop that continues until the next line is empty.
+        while((currentLine = reader.readLine()) != null) {
+            //Stores values found within the file into an array, splitting each by commas.
+            String[] values = currentLine.split(",");
+            //For loop that adds all values in the array to the result ArrayList.
+            for (String value : values) {
+                //Adds information to the result array.
+                saltArray.add(Double.valueOf(value));
             }
-            double average = sum / count;
-            String smoothedValue = String.valueOf(average);
-            writer.write(smoothedValue);
         }
+        //Creates the PrintWriter object that will be used to write values to the CSV file.
+        PrintWriter writer = new PrintWriter("SineSmootherResults.csv");
+    }
 
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-		finally
-        {
-            try
-            {
-                if (reader != null) {
-                    reader.close();
-                    writer.close();
-                }
-            }
-            catch (IOException ex)
-            {
-                ex.printStackTrace();
+    public void cosineDataSmoother(String file) throws IOException {
+        //Creates a new BufferedReader object that will read the plotter results file.
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        //Declares a variable that will hold the current line in the file.
+        String currentLine;
+        //While loop that continues until the next line is empty.
+        while((currentLine = reader.readLine()) != null) {
+            //Stores values found within the file into an array, splitting each by commas.
+            String[] values = currentLine.split(",");
+            //For loop that adds all values in the array to the result ArrayList.
+            for (String value : values) {
+                //Adds information to the result array.
+                saltArray.add(Double.valueOf(value));
             }
         }
+        //Creates the PrintWriter object that will be used to write values to the CSV file.
+        PrintWriter writer = new PrintWriter("CosineSmootherResults.csv");
     }
 }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated file structure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/Salter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSalter/TestSalter.java" afterDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Fixed original salter">
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/Smoother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part1Java/CSVDataSmoother/TestSmoother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Tchebysheff's theorem">
-      <created>1711220041669</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1711220041669</updated>
     </task>
     <task id="LOCAL-00006" summary="Created files for plot/salt/smooth project">
       <created>1711220242190</created>
@@ -463,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714012935840</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Fixed original salter">
+      <created>1714013925532</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1714013925533</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganized files" />
     <MESSAGE value="Reorganized and added to stats library" />
     <MESSAGE value="Added to stats library" />
     <MESSAGE value="Removed strange file" />
@@ -503,6 +501,7 @@
     <MESSAGE value="Removed older files" />
     <MESSAGE value="Rearranged files" />
     <MESSAGE value="Updated file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
+    <MESSAGE value="Fixed original salter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed original salter" />
   </component>
 </project>
