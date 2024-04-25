@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished JFreeChart plotter">
-      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/ApacheCommonsPlotterSalterSmoother.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/CSVJARDataPlotSaltSmooth/JFreeChartPlotterSalterSmoother.java" beforeDir="false" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated file structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JFreeChartPlotterSalterSmoother">
+  <component name="RunManager" selected="Application.Project2Part3JARs.JFreeChartPlotterSalterSmoother">
     <configuration name="JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.CSVJARDataPlotSaltSmooth.JFreeChartPlotterSalterSmoother" />
       <module name="ProbStatsProject2" />
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Project2Part1Java.CSVDataSalter.TestSalter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataSalter.TestSalter" />
+    <configuration name="Project2Part3JARs.JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
       <module name="ProbStatsProject2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2Part1Java.CSVDataSalter.*" />
+          <option name="PATTERN" value="Project2Part3JARs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.TestSmoother" />
         <item itemvalue="Application.Project2Part1Java.CSVDataPlotter.TestPlotter" />
         <item itemvalue="Application.TestStockBot" />
-        <item itemvalue="Application.Project2Part1Java.CSVDataSalter.TestSalter" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714002640248</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Updated file structure">
+      <created>1714002758517</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1714002758517</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,8 +479,8 @@
     <MESSAGE value="Added JAR files" />
     <MESSAGE value="Imported remaining JARs and added files" />
     <MESSAGE value="Started JAR plotter" />
-    <MESSAGE value="Updated file structure" />
     <MESSAGE value="Finished JFreeChart plotter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished JFreeChart plotter" />
+    <MESSAGE value="Updated file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated file structure" />
   </component>
 </project>

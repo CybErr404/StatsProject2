@@ -4,22 +4,47 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
+import java.awt.*;
+import java.util.Random;
 
 public class JFreeChartPlotterSalterSmoother {
     public void jPolynomialPlotter() {
-        DefaultCategoryDataset values = new DefaultCategoryDataset();
-        for(int x = -25; x <= 25; x++) {
-            double result = Math.pow((0.1 * x), 2) - (0.5 * x) - 2;
-            values.addValue(result, "Y-Values", String.valueOf(x));
+        XYSeriesCollection values = new XYSeriesCollection();
+        XYSeries original = new XYSeries("Original Function");
+        XYSeries salted = new XYSeries("Salted Function");
+        XYSeries smoothed = new XYSeries("Smoothed Function");
+        for(int x = -50; x <= 50; x++) {
+            double y = Math.pow((0.1 * x), 2) - (0.5 * x) - 2;
+            original.add(x, y);
         }
-        JFreeChart graph = ChartFactory.createLineChart("Data Plotter for 0.1x^2 - 0.5x - 2",
+        values.addSeries(original);
+
+        for(int x = -50; x <= 50; x++) {
+            Random randomNumber = new Random();
+            int randomSaltValue = randomNumber.nextInt(100);
+            double y = Math.pow((0.1 * x), 2) - (0.5 * x) - 2;
+            if(x % 2 == 0) {
+                y = y + randomSaltValue;
+            }
+            else {
+                y = y - randomSaltValue;
+            }
+            salted.add(x, y);
+        }
+        values.addSeries(salted);
+        values.addSeries(smoothed);
+
+        JFreeChart graph = ChartFactory.createXYLineChart("Data Plotter for sin(2x)",
                 "X-Value (Increment)", "Y-Value (Result)", values);
 
         ChartPanel panel = new ChartPanel(graph);
         JFrame jFrame = new JFrame();
         jFrame.setSize(800, 600);
+        jFrame.setBackground(Color.white);
         jFrame.setContentPane(panel);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -27,17 +52,38 @@ public class JFreeChartPlotterSalterSmoother {
     }
 
     public void jSinePlotter() {
-        DefaultCategoryDataset values = new DefaultCategoryDataset();
-        for(int x = -25; x <= 25; x++) {
-            double result = Math.sin(2 * x);
-            values.addValue(result, "Y-Values", String.valueOf(x));
+        XYSeriesCollection values = new XYSeriesCollection();
+        XYSeries original = new XYSeries("Original Function");
+        XYSeries salted = new XYSeries("Salted Function");
+        XYSeries smoothed = new XYSeries("Smoothed Function");
+        for(int x = -50; x <= 50; x++) {
+            double y = Math.sin(2 * x);
+            original.add(x, y);
         }
-        JFreeChart graph = ChartFactory.createLineChart("Data Plotter for sin(2x)",
+        values.addSeries(original);
+
+        for(int x = -50; x <= 50; x++) {
+            Random randomNumber = new Random();
+            int randomSaltValue = randomNumber.nextInt(100);
+            double y = Math.sin(2 * x);
+            if(x % 2 == 0) {
+                y = y + randomSaltValue;
+            }
+            else {
+                y = y - randomSaltValue;
+            }
+            salted.add(x, y);
+        }
+        values.addSeries(salted);
+        values.addSeries(smoothed);
+
+        JFreeChart graph = ChartFactory.createXYLineChart("Data Plotter for sin(2x)",
                 "X-Value (Increment)", "Y-Value (Result)", values);
 
         ChartPanel panel = new ChartPanel(graph);
         JFrame jFrame = new JFrame();
         jFrame.setSize(800, 600);
+        jFrame.setBackground(Color.white);
         jFrame.setContentPane(panel);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -45,19 +91,40 @@ public class JFreeChartPlotterSalterSmoother {
     }
 
     public void jCosineWavesPlotter() {
-        DefaultCategoryDataset values = new DefaultCategoryDataset();
-        for(int x = -25; x <= 25; x++) {
-            double result = (3 * Math.cos(x)) - (5 * Math.cos(2 * x))
-                    - (2 * Math.cos(3 * x)) - (Math.cos(4 * x));;
-            values.addValue(result, "Y-Values", String.valueOf(x));
+        XYSeriesCollection values = new XYSeriesCollection();
+        XYSeries original = new XYSeries("Original Function");
+        XYSeries salted = new XYSeries("Salted Function");
+        XYSeries smoothed = new XYSeries("Smoothed Function");
+        for(int x = -50; x <= 50; x++) {
+            double y = (3 * Math.cos(x)) - (5 * Math.cos(2 * x))
+                    - (2 * Math.cos(3 * x)) - (Math.cos(4 * x));
+            original.add(x, y);
         }
-        JFreeChart graph = ChartFactory
-                .createLineChart("Data Plotter for 3cos(x) - 5cos(2x) - 2cos(3x) - cos(4x)",
+        values.addSeries(original);
+
+        for(int x = -50; x <= 50; x++) {
+            Random randomNumber = new Random();
+            int randomSaltValue = randomNumber.nextInt(100);
+            double y = (3 * Math.cos(x)) - (5 * Math.cos(2 * x))
+                    - (2 * Math.cos(3 * x)) - (Math.cos(4 * x));
+            if(x % 2 == 0) {
+                y = y + randomSaltValue;
+            }
+            else {
+                y = y - randomSaltValue;
+            }
+            salted.add(x, y);
+        }
+        values.addSeries(salted);
+        values.addSeries(smoothed);
+
+        JFreeChart graph = ChartFactory.createXYLineChart("Data Plotter for sin(2x)",
                 "X-Value (Increment)", "Y-Value (Result)", values);
 
         ChartPanel panel = new ChartPanel(graph);
         JFrame jFrame = new JFrame();
         jFrame.setSize(800, 600);
+        jFrame.setBackground(Color.white);
         jFrame.setContentPane(panel);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
