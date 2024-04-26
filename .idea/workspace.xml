@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Edited file structure">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Rearranged files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WrittenWorks/CSVResultFiles/MasterResultsFile/JavaPSSResults.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/CSVResultFiles/MasterResultsFile/JavaPSSResults.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part3JARs/JFreeChartPlotterSalterSmoother.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestSmoother">
+  <component name="RunManager" selected="Application.JFreeChartPlotterSalterSmoother">
+    <configuration name="JFreeChartPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.JFreeChartPlotterSalterSmoother" />
+      <module name="ProbStatsProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project2Part3JARs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Project2Part5StockBot.TestStockBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part5StockBot.TestStockBot" />
       <module name="ProbStatsProject2" />
@@ -92,20 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStockBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestStockBot" />
-      <module name="ProbStatsProject2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.TestSmoother" />
         <item itemvalue="Application.TestSalter" />
         <item itemvalue="Application.TestPlotter" />
         <item itemvalue="Application.Project2Part5StockBot.TestStockBot" />
-        <item itemvalue="Application.TestStockBot" />
       </list>
     </recent_temporary>
   </component>
@@ -117,20 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Finished plotter">
-      <created>1712073214095</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1712073214095</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added equation graph">
-      <created>1712073533813</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1712073533813</updated>
     </task>
     <task id="LOCAL-00012" summary="Added second formula">
       <created>1712258561210</created>
@@ -461,7 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714066705357</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Finished plotter, salter, and smoother documentation">
+      <created>1714073892239</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1714073892239</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Rearranged files">
+      <created>1714074004227</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1714074004227</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed strange file" />
     <MESSAGE value="Reorganized file structure" />
     <MESSAGE value="Reprogrammed plotter" />
     <MESSAGE value="Fixed Java salter" />
@@ -495,12 +502,13 @@
     <MESSAGE value="Finished JFreeChart plotter" />
     <MESSAGE value="Finished JFreeChart plot and salt" />
     <MESSAGE value="Removed older files" />
-    <MESSAGE value="Rearranged files" />
     <MESSAGE value="Updated file structure" />
     <MESSAGE value="Fixed original salter" />
     <MESSAGE value="Started official smoother" />
     <MESSAGE value="Finished base smoother" />
     <MESSAGE value="Edited file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited file structure" />
+    <MESSAGE value="Finished plotter, salter, and smoother documentation" />
+    <MESSAGE value="Rearranged files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged files" />
   </component>
 </project>
