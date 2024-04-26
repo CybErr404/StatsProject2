@@ -17,10 +17,41 @@ value of Chebyshev's theorem, Uniform Distribution, the expected value, variance
 standard deviation of Gamma Distribution, Exponential Distribution, the expected, variance, and standard deviation of Exponential Distribution, conditional density for
 x and y values, and independency for functions, densities, probabilities, and distributions.
 
-**CSV Data Salter -** This folder contains programs that will plot output in a csv file (Plotter and TestPlotter),
-salt the data (i.e., add "garbage" values to the data to avoid detection) by taking a csv file and updating the values
+**Project 2 Part 1 Java -** This folder contains programs that will plot output in a .csv file (Plotter and TestPlotter),
+salt the data (i.e., add "garbage" values to the data to avoid detection) by taking a .csv file and updating the values
 (Salter and TestSalter), then smooth the data by averaging the salted values (Smoother and TestSmoother).
+
+**Project 2 Part 2 MATLAB -** This folder contains a .txt and .mlx file that can be used within MATLAB's Live Editor. The code shown in this
+folder is another version of the original plotter, salter, and smoother, just with MATLAB instead of Java.
+
+**Project 2 Part 3 JARs -** This folder contains code used to create both a JFreeChart plotter, salter, and smoother and an Apache Commons Math plotter, salter, and
+smoother. These programs require external .jar files to run which can be found through the links listed under "CODE." The JFreeChart version plots the data using
+XYSeries and graph objects, and the Apache Commons Math version uses a random number generator, a sine method, and a mean / smoothing method that is different
+than those within Java's classes.
+
+**Project 2 Part 4 Stock Bot -** This folder contains both the Stock Bot main class and the Stock Bot tester class that are used to track stock trends to determine whether
+someone should buy or sell at a specific point. The bot uses RSI (Relative Strength Index) to help with eventually calculating a moving average which is similar
+to the original data smoother written in Java (no .jar files).
 
 
 **WRITTEN WORKS -**
-This sections consists of documentation, written reports, and a formula sheet.
+This sections consists of program documentation, written reports, results, and a formula sheet that contains all formulas covered in the course thus far.
+
+**CSV Practice File -** This folder contains a .csv file that was created in class one day to practice plotting data.
+
+**CSV Result Files -** The result file contains Apache Commons graph results and documentation, polynomial PSS results, sine PSS results, cosine PSS results, a master
+Excel sheet which holds all data and a graph that contains each series.
+
+**CSV Trial Files -** For anyone who is interested, the files found within this folder are those generated after running the original plotter, salter, and smoother
+before edits had been made. These were tests to make sure the program was working.
+
+**Documentation -** This folder contains documentation for the Java plotter, salter, and smoother, documentation for the Apache Commons Math and JFreeChart plotters, 
+salters, and smoothers, and Stats Library results and documentation.
+
+**Formula Sheet -** Holds the current formula sheet that has all formulas covered in the course up to this point.
+
+**Goodreads Dataset Report -** This folder holds the .csv file that contains all books in the Goodreads site database along with the report that tells a story about
+the data contained within the .csv file.
+
+**MATLAB Reports -** This folder consists of the MATLAB Onramp tutorial report along with the file that contains documentation and results for the MATLAB 
+plotter, salter, and smoother.
