@@ -10,8 +10,9 @@ import java.math.BigInteger;
 //Poisson distribution, the expected value, variance, and standard deviation for Poisson distribution,
 //Tchebysheff's theorem, Tchebysheff's k-value, Uniform Distribution, the expected, variance, and
 //standard deviation of uniform distribution, the expected value, variance, and standard deviation
-//of Gamma Distribution, exponential distribution, and the expected, variance, and standard deviation
-//of exponential distribution.
+//of Gamma Distribution, exponential distribution, the expected, variance, and standard deviation
+//of exponential distribution, conditional density, and independency determination for densities,
+//distributions, probabilities, and functions.
 
 /**
  * @author Mia Watts

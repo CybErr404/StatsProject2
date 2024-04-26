@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished formula sheet">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished stats library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatsLibrary/TestStatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/TestStatsLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ApacheCommonsPlotterSalterSmoother">
+  <component name="RunManager" selected="Application.TestStatsLibrary">
     <configuration name="ApacheCommonsPlotterSalterSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2Part3JARs.ApacheCommonsPlotterSalterSmoother" />
       <module name="ProbStatsProject2" />
@@ -60,19 +61,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Project2Part3JARs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPlotter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2Part1Java.CSVDataPlotter.TestPlotter" />
-      <module name="ProbStatsProject2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Project2Part1Java.CSVDataPlotter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStatsLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StatsLibrary.TestStatsLibrary" />
+      <module name="ProbStatsProject2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StatsLibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStatsLibrary" />
         <item itemvalue="Application.ApacheCommonsPlotterSalterSmoother" />
         <item itemvalue="Application.JFreeChartPlotterSalterSmoother" />
         <item itemvalue="Application.TestSmoother" />
         <item itemvalue="Application.TestSalter" />
-        <item itemvalue="Application.TestPlotter" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Reorganized and added to stats library">
-      <created>1713302562649</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1713302562649</updated>
     </task>
     <task id="LOCAL-00021" summary="Added to stats library">
       <created>1713362291453</created>
@@ -468,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714123196683</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Finished stats library">
+      <created>1714124221635</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1714124221635</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deleted random file" />
     <MESSAGE value="Finished MATLAB work" />
     <MESSAGE value="Updated MATLAB materials" />
     <MESSAGE value="Added base JAR program" />
@@ -508,6 +508,7 @@
     <MESSAGE value="Added Apache results" />
     <MESSAGE value="Updated stats library" />
     <MESSAGE value="Finished formula sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished formula sheet" />
+    <MESSAGE value="Finished stats library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished stats library" />
   </component>
 </project>
