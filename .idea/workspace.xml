@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated stats library">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished formula sheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Reorganized files">
-      <created>1713294071133</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1713294071133</updated>
     </task>
     <task id="LOCAL-00020" summary="Reorganized and added to stats library">
       <created>1713302562649</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714111229855</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Finished formula sheet">
+      <created>1714123196683</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1714123196683</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Worked on smoother and added MATLAB reports" />
     <MESSAGE value="Deleted random file" />
     <MESSAGE value="Finished MATLAB work" />
     <MESSAGE value="Updated MATLAB materials" />
@@ -508,6 +507,7 @@
     <MESSAGE value="Finished Apache plotter" />
     <MESSAGE value="Added Apache results" />
     <MESSAGE value="Updated stats library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated stats library" />
+    <MESSAGE value="Finished formula sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished formula sheet" />
   </component>
 </project>

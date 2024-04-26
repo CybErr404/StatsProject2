@@ -253,4 +253,71 @@ public class StatsLibrary {
     public double standardDeviationED(double beta) {
         return beta;
     }
+
+    /**
+     * This method determines the conditional density of y.
+     * @param jointDensity - joint density function.
+     * @param yDensity - density of just y.
+     * @return the joint density function divided by the density function of y.
+     */
+    public double conditionalDensity1(double jointDensity, double yDensity) {
+        return jointDensity / yDensity;
+    }
+
+    /**
+     * This method determines the conditional density of x.
+     * @param jointDensity - joint density function.
+     * @param xDensity - density of just x.
+     * @return the joint density function divided by the density function of x.
+     */
+    public double conditionalDensity2(double jointDensity, double xDensity) {
+        return jointDensity / xDensity;
+    }
+
+    /**
+     * This method determines whether a joint distribution function is independent and/or
+     * whether X and Y are independent.
+     * @param jointDistribution - joint distribution function.
+     * @param xDistribution - distribution of x.
+     * @param yDistribution - distribution of y.
+     * @return true if the result says they are independent and false otherwise.
+     */
+    public boolean independency1(double jointDistribution, double xDistribution, double yDistribution) {
+        return jointDistribution == (xDistribution * yDistribution);
+    }
+
+    /**
+     * This method determines whether a joint probability function is independent and/or
+     * whether X and Y are independent.
+     * @param jointProbability - joint probability function.
+     * @param xProbability - distribution of x.
+     * @param yProbability - distribution of y.
+     * @return true if the result says they are independent and false otherwise.
+     */
+    public boolean independency2(double jointProbability, double xProbability, double yProbability) {
+        return jointProbability == (xProbability * yProbability);
+    }
+
+    /**
+     * This method determines whether a joint density function is independent and/or
+     * whether X and Y are independent.
+     * @param jointDensity - joint density function.
+     * @param xDensity - density of x.
+     * @param yDensity - density of y.
+     * @return true if the result says they are independent and false otherwise.
+     */
+    public boolean independency3(double jointDensity, double xDensity, double yDensity) {
+        return jointDensity == (xDensity * yDensity);
+    }
+
+    /**
+     * This method determines whether two functions are independent.
+     * @param jointDensity - joint density function.
+     * @param xFunction - function of x.
+     * @param yFunction - function of y.
+     * @return true if the result says they are independent and false otherwise.
+     */
+    public boolean independency4(double jointDensity, double xFunction, double yFunction) {
+        return jointDensity == (xFunction * yFunction);
+    }
 }
