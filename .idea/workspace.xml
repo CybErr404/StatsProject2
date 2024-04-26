@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added Apache results">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated stats library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsLibrary/StatsLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/FormulaSheet/FormulaSheet.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Reorganized files">
-      <created>1713294029949</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1713294029949</updated>
     </task>
     <task id="LOCAL-00019" summary="Reorganized files">
       <created>1713294071133</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714110748086</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Updated stats library">
+      <created>1714111229855</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1714111229855</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uploaded stock file" />
     <MESSAGE value="Worked on smoother and added MATLAB reports" />
     <MESSAGE value="Deleted random file" />
     <MESSAGE value="Finished MATLAB work" />
@@ -508,6 +507,7 @@
     <MESSAGE value="Finished Java PSS documentation" />
     <MESSAGE value="Finished Apache plotter" />
     <MESSAGE value="Added Apache results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Apache results" />
+    <MESSAGE value="Updated stats library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated stats library" />
   </component>
 </project>
