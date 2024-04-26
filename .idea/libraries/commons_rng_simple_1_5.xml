@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="commons-rng-simple-1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-simple-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-sampling-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-core-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-client-api-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-simple-1.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-sampling-1.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-core-1.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-client-api-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-simple-1.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-sampling-1.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-core-1.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-rng-1.5-bin/commons-rng-1.5/commons-rng-client-api-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
