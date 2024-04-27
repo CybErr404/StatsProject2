@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added to documentation">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished commenting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotGraphs.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotGraphs.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,27 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Reprogrammed plotter">
-      <created>1713365245812</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1713365245812</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Edited file structure">
-      <created>1713365771494</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1713365771494</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Fixed Java salter">
-      <created>1713366113829</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1713366113829</updated>
     </task>
     <task id="LOCAL-00028" summary="Added salting results">
       <created>1713366204934</created>
@@ -470,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1714184785432</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Added to documentation">
+      <created>1714186788582</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1714186788582</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Created buy/sell/hold checker">
+      <created>1714186820506</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1714186820507</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Finished commenting">
+      <created>1714187026888</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1714187026888</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Imported remaining JARs and added files" />
-    <MESSAGE value="Started JAR plotter" />
     <MESSAGE value="Finished JFreeChart plotter" />
     <MESSAGE value="Finished JFreeChart plot and salt" />
     <MESSAGE value="Removed older files" />
@@ -510,6 +506,8 @@
     <MESSAGE value="Finished Goodreads data report" />
     <MESSAGE value="Added base Stock Bot programs" />
     <MESSAGE value="Added to documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to documentation" />
+    <MESSAGE value="Created buy/sell/hold checker" />
+    <MESSAGE value="Finished commenting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished commenting" />
   </component>
 </project>
