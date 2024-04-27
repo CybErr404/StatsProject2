@@ -5,7 +5,10 @@ This repository contains documentation, .csv files, a data plotter, salter, and 
 data plotter, salter, and smoother, a .jar file plotter, salter, and smoother (one from JFreeChart and the other from Apache Commons Math), a Stock Bot to determine
 when to buy or sell stocks, and a dataset paper that visualizes data from a Goodreads book dataset and tells a story about the data through statistics problems.
 
-**NAVIGATION** Go through the src folder to find code related items. Go through WrittenWorks to find documentation, CSV files, written reports, and results.
+**NAVIGATION -** Go through the src folder to find code related items. Go through WrittenWorks to find documentation, CSV files, written reports, and results.
+
+**CONTRIBUTORS -** To program the Stock Bot, I worked with / helped Garret Chmielewski, received help from Jake Cubernot, and worked alongside Heather Krencicki who
+is not currently in the class. Thank you to Jake, Heather, and Garret!
 
 **CODE -**
 Contains code from the updated Stats Library and a .csv file Plotter, Salter, and Smoother written in Java. Along with a Java plotter, salter, and smoother,
@@ -31,7 +34,8 @@ than those within Java's classes.
 
 **Project 2 Part 4 Stock Bot -** This folder contains both the Stock Bot main class and the Stock Bot tester class that are used to track stock trends to determine whether
 someone should buy or sell at a specific point. The bot uses RSI (Relative Strength Index) to help with eventually calculating a moving average which is similar
-to the original data smoother written in Java (no .jar files).
+to the original data smoother written in Java (no .jar files). To program the Stock Bot, I worked with Garret Chmielewski, Heather Krencicki (not currently in stats), and
+Jake Cubernot. Huge thanks to everyone who worked with me or helped!
 
 
 **WRITTEN WORKS -**
