@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Finished commenting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" afterDir="false" />
-    </list>
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added to documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added salting results">
-      <created>1713366204934</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1713366204934</updated>
     </task>
     <task id="LOCAL-00029" summary="Added several result files">
       <created>1713366611758</created>
@@ -468,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714187026888</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Added to documentation">
+      <created>1714189732691</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1714189732691</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,9 +502,9 @@
     <MESSAGE value="Finished stats library documentation" />
     <MESSAGE value="Finished Goodreads data report" />
     <MESSAGE value="Added base Stock Bot programs" />
-    <MESSAGE value="Added to documentation" />
     <MESSAGE value="Created buy/sell/hold checker" />
     <MESSAGE value="Finished commenting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished commenting" />
+    <MESSAGE value="Added to documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added to documentation" />
   </component>
 </project>
