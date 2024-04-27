@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @author Mia Watts, Garret Chmielewski, Heather Krencicki
- * This file contains the stock bot that calculates the RSI (Relative Strength Index)
+ * This file contains a base version of a stock bot that calculates the RSI (Relative Strength Index)
  * and determines whether to buy or sell from the index and moving average.
  */
 public class StockBot {
