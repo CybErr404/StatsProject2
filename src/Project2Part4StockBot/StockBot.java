@@ -61,6 +61,23 @@ public class StockBot {
         return 100 - (100 / (1 + rs));
     }
 
+    /**
+     * Tells the user whether to buy, sell, or hold based on the calculated RSI.
+     * @param rsi - rsi value calculated in the RSI calculator.
+     * @return whether the buy, sell, or hold.
+     */
+    public static String buySellHold(double rsi) {
+        if(rsi > 70) {
+            return "Sell Stock";
+        }
+        else if(rsi < 30) {
+            return "Buy Stock";
+        }
+        else {
+            return "Hold Stock";
+        }
+    }
+
     public static void main(String[] args) {
         //Saves file path.
         String csvFilePath = "src/Project2Part4StockBot/NTDOY.csv";
@@ -77,6 +94,7 @@ public class StockBot {
             int periodLength = 14; // Typical RSI period length
             double rsi = calculateRSI(stockData, periodLength);
             System.out.println("RSI: " + rsi);
+            System.out.println(buySellHold(rsi));
         }
         //Catches errors if any occur.
         catch (IllegalArgumentException e) {
