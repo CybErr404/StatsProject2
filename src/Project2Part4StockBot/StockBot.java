@@ -12,6 +12,7 @@ import java.util.Map;
  * and determines whether to buy or sell from the index and moving average.
  */
 public class StockBot {
+    //Helper comments from Jake Cubernot to explain the 70-30 rule in stocks.
     //Above 70 sell
     //below 30 buy
 
@@ -63,6 +64,8 @@ public class StockBot {
 
     /**
      * Tells the user whether to buy, sell, or hold based on the calculated RSI.
+     * Jake Cubernot helped with this in that he assisted in helping me understand how
+     * this part of the stock bot is supposed to work.
      * @param rsi - rsi value calculated in the RSI calculator.
      * @return whether the buy, sell, or hold.
      */
