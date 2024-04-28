@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Successfully added updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,20 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Started JAR plotter">
-      <created>1714001225485</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1714001225485</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Updated file structure">
-      <created>1714001340065</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1714001340065</updated>
     </task>
     <task id="LOCAL-00045" summary="Finished JFreeChart plotter">
       <created>1714002640248</created>
@@ -468,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714346794062</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Added stock bot comments">
+      <created>1714347387603</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1714347387603</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Successfully added updates">
+      <created>1714347417782</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1714347417782</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished JFreeChart documentation" />
     <MESSAGE value="Finished Java PSS documentation" />
     <MESSAGE value="Finished Apache plotter" />
     <MESSAGE value="Added Apache results" />
@@ -507,6 +505,7 @@
     <MESSAGE value="Added stock trade evaluator" />
     <MESSAGE value="Updated stock bot documentation" />
     <MESSAGE value="Edited stock bot" />
+    <MESSAGE value="Added stock bot comments" />
     <MESSAGE value="Successfully added updates" />
     <option name="LAST_COMMIT_MESSAGE" value="Successfully added updates" />
   </component>
