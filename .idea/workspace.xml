@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Restructured workspace" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WrittenWorks/GoodreadsDatasetReport/GoodreadsDatasetReport.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/GoodreadsDatasetReport/GoodreadsDatasetReport.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Added comments">
-      <created>1713368274181</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1713368274181</updated>
     </task>
     <task id="LOCAL-00031" summary="Added comments">
       <created>1713369802140</created>
@@ -465,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714189827189</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Updated comments">
+      <created>1714189986526</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1714189986528</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished JFreeChart plot and salt" />
     <MESSAGE value="Removed older files" />
     <MESSAGE value="Updated file structure" />
     <MESSAGE value="Fixed original salter" />
@@ -505,6 +507,7 @@
     <MESSAGE value="Finished commenting" />
     <MESSAGE value="Added to documentation" />
     <MESSAGE value="Restructured workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructured workspace" />
+    <MESSAGE value="Updated comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated comments" />
   </component>
 </project>
