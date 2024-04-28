@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Fixed submissions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockEvaluator.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added closing value file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,20 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Worked on smoother and added MATLAB reports">
-      <created>1713897956792</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1713897956792</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Deleted random file">
-      <created>1713898040718</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1713898040718</updated>
     </task>
     <task id="LOCAL-00036" summary="Finished MATLAB work">
       <created>1713905614467</created>
@@ -469,7 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714339929378</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Finished stock bot smoother">
+      <created>1714341971585</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1714341971585</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Added closing value file">
+      <created>1714341993042</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1714341993047</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,8 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started official smoother" />
-    <MESSAGE value="Finished base smoother" />
     <MESSAGE value="Edited file structure" />
     <MESSAGE value="Finished plotter, salter, and smoother documentation" />
     <MESSAGE value="Rearranged files" />
@@ -509,6 +503,8 @@
     <MESSAGE value="Updated dataset report" />
     <MESSAGE value="Updated stock bot documentation" />
     <MESSAGE value="Fixed submissions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed submissions" />
+    <MESSAGE value="Finished stock bot smoother" />
+    <MESSAGE value="Added closing value file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added closing value file" />
   </component>
 </project>
