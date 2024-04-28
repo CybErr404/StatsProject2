@@ -142,7 +142,8 @@ public class StockBot {
     /**
      * Tells the user whether to buy, sell, or hold based on the calculated RSI.
      * Jake Cubernot helped with this in that he assisted in helping me understand how
-     * this part of the stock bot is supposed to work.
+     * this part of the stock bot is supposed to work (i.e., whether to buy, sell, etc. based
+     * on the RSI value calculated).
      * @param rsi - rsi value calculated in the RSI calculator.
      * @return whether the buy, sell, or hold.
      */
