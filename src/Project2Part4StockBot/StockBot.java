@@ -27,6 +27,50 @@ public class StockBot {
     ArrayList<Double> smoothedStockValueArray = new ArrayList<>();
 
     /**
+     * This method is a trade evaluator which determines whether someone should sell, buy, or
+     * hold, then calculates what their worth would be after selling, buying, or holding.
+     * @param currentShares - the amount of shares owned at the time of program execution.
+     * @param currentRSI - the RSI value calculated from the stock data.
+     * @param budget - how much money you can spend on stocks.
+     * @param currentPrice - current price of a Nintendo stock.
+     * @return a String that gives details on the starting budget, new budget, whether to hold stocks,
+     * and
+     */
+    public String tradeEvaluator(int currentShares, double currentRSI, int budget, double currentPrice) {
+        double currentBudget = 0.0;
+        String hold = "";
+        int held = 0;
+        int sold = 0;
+        int bought = 0;
+        String bankrupt = "N";
+        if(currentRSI < 30) {
+            int stockTotal = budget - (int) (currentPrice * (budget / currentPrice));
+            currentBudget = budget - stockTotal;
+            if(currentBudget < 0) {
+                bankrupt = "Y";
+            }
+            currentShares = (int) (currentShares + (budget / currentPrice));
+            hold = "N";
+            bought = (int) (budget / currentPrice);
+        }
+        else if(currentRSI > 70) {
+            currentBudget = budget + (currentShares * currentPrice);
+            sold = currentShares;
+            hold = "N";
+            currentShares = 0;
+        }
+        else {
+            currentBudget = budget;
+            hold = "Y";
+            held = currentShares;
+        }
+        return "\nStarting budget: " + budget + "\nCurrent budget: " + currentBudget
+                + "\nHold? (Y/N): " + hold + "\nAmount sold: " + sold + "\nAmount bought: "
+                + bought + "\nAmount held: " + held + "\nCurrent shares: " + currentShares
+                + "\nBankrupt? (Y/N): " + bankrupt;
+    }
+
+    /**
      * This method calculates the RSI value following the instruction file given in class.
      * @param Data - list of data files from the stock file.
      * @param quarter - N value as described on the instruction file given (days).
@@ -191,6 +235,10 @@ public class StockBot {
     }
 
     public static void main(String[] args) throws IOException {
+        //Holds the budget that determines how many stocks I can buy.
+        int stockBudget = 1000;
+        //Holds the current price of one Nintendo stock.
+        double stockPrice = 12.25;
         //Saves file path.
         String csvFilePath = "src/Project2Part4StockBot/NTDOY.csv";
         //Creates a StockBot object that will be used when smoothing occurs.
@@ -208,6 +256,7 @@ public class StockBot {
             double rsi = calculateRSI(stockData, periodLength);
             System.out.println("RSI: " + rsi);
             System.out.println(buySellHold(rsi));
+            System.out.println(test.tradeEvaluator(10, rsi, stockBudget, stockPrice));
         }
         //Catches errors if any occur.
         catch (IllegalArgumentException e) {
