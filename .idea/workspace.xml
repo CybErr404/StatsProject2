@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added stock trade evaluator">
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Successfully added updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenWorks/Documentation/StockBotDocumentation/StockBotDocumentation.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,27 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Added base JAR program">
-      <created>1713974827281</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1713974827281</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Added JAR files">
-      <created>1713999435277</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1713999435277</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Imported remaining JARs and added files">
-      <created>1714000556136</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1714000556136</updated>
     </task>
     <task id="LOCAL-00043" summary="Started JAR plotter">
       <created>1714001225485</created>
@@ -469,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1714345095641</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Updated stock bot documentation">
+      <created>1714346736814</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1714346736814</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Edited stock bot">
+      <created>1714346757859</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1714346757859</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Successfully added updates">
+      <created>1714346794062</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1714346794062</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed numerous things" />
-    <MESSAGE value="Removed strange file" />
     <MESSAGE value="Finished JFreeChart documentation" />
     <MESSAGE value="Finished Java PSS documentation" />
     <MESSAGE value="Finished Apache plotter" />
@@ -507,8 +504,10 @@
     <MESSAGE value="Added closing value file" />
     <MESSAGE value="Added bot smoothing results" />
     <MESSAGE value="Reorganized files" />
-    <MESSAGE value="Updated stock bot documentation" />
     <MESSAGE value="Added stock trade evaluator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added stock trade evaluator" />
+    <MESSAGE value="Updated stock bot documentation" />
+    <MESSAGE value="Edited stock bot" />
+    <MESSAGE value="Successfully added updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully added updates" />
   </component>
 </project>
