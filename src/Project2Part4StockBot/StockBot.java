@@ -37,33 +37,56 @@ public class StockBot {
      * and
      */
     public String tradeEvaluator(int currentShares, double currentRSI, double budget, double currentPrice) {
+        //Holds the current budget after selling, buying, or holding.
         double currentBudget;
+        //String flag that will be set to "Y" if stocks are held and "N" if they aren't.
         String hold = "";
+        //How many stocks are being held at once.
         int held = 0;
+        //How many stocks are being sold at once.
         int sold = 0;
+        //How many stocks are being bought at once.
         int bought = 0;
+        //Initially set to "N," this tells the user whether they've bought too much and have no money.
         String bankrupt = "N";
+        //Checks to see if RSI is less than 30. (Buy)
         if(currentRSI < 30) {
+            //Calculates the shares that can be bought with the given budget.
             bought = (int) (budget / currentPrice);
+            //Calculates the total price of all stocks that can be bought.
             double stockTotal = currentPrice * bought;
+            //Updates the budget to what it would be after buying.
             currentBudget = (budget - stockTotal);
-            currentShares = (int) (currentShares + (budget / currentPrice));
+            //Calculates the current share amount by adding the bought shares to the current shares.
+            currentShares = (currentShares + bought);
+            //Sets the holding flag to no since no stocks were held.
             hold = "N";
+            //If the current budget is less than 0, the user is bankrupt.
             if(currentBudget < 0) {
                 bankrupt = "Y";
             }
         }
+        //Checks to see if the RSI is greater than 70. (Sell)
         else if(currentRSI > 70) {
+            //Calculates the current budget by adding the total sell price to the budget.
             currentBudget = budget + (currentShares * currentPrice);
+            //Sets the amount sold to the amount of current shares (sells everything).
             sold = currentShares;
+            //Sets holding flag to no since nothing is held.
             hold = "N";
+            //Sets current shares to 0 since all have been sold.
             currentShares = 0;
         }
+        //This code runs if RSI is in between 30 and 70.
         else {
+            //The current budget stays the same.
             currentBudget = budget;
+            //All stocks are held, so hold is set to yes.
             hold = "Y";
+            //All stocks are held, so the held amount is the total number of stocks.
             held = currentShares;
         }
+        //Returns the String that updates the user on their trade.
         return "\nStarting budget: " + budget + "\nCurrent budget: " + currentBudget
                 + "\nHold? (Y/N): " + hold + "\nAmount sold: " + sold + "\nAmount bought: "
                 + bought + "\nAmount held: " + held + "\nCurrent shares: " + currentShares
