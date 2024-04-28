@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Updated stock bot documentation" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Fixed submissions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Project2Part4StockBot/StockEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project2Part4StockBot/StockEvaluator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Uploaded stock file">
-      <created>1713660646678</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1713660646678</updated>
     </task>
     <task id="LOCAL-00034" summary="Worked on smoother and added MATLAB reports">
       <created>1713897956792</created>
@@ -465,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714339698711</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Fixed submissions">
+      <created>1714339929378</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1714339929378</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed original salter" />
     <MESSAGE value="Started official smoother" />
     <MESSAGE value="Finished base smoother" />
     <MESSAGE value="Edited file structure" />
@@ -505,6 +508,7 @@
     <MESSAGE value="Updated comments" />
     <MESSAGE value="Updated dataset report" />
     <MESSAGE value="Updated stock bot documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated stock bot documentation" />
+    <MESSAGE value="Fixed submissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed submissions" />
   </component>
 </project>

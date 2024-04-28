@@ -22,7 +22,7 @@ public class StockEvaluator {
      */
     public static Map<String, StockReader> readData(String file) {
         //Map that stores stock data.
-        Map<String, StockReader > stockDataMap = new HashMap<>();
+        Map<String, StockReader> stockDataMap = new HashMap<>();
 
         //Try statement to prevent issues with reading from a file.
         try (BufferedReader objReader = new BufferedReader(new FileReader(file))) {

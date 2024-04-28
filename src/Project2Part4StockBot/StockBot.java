@@ -1,6 +1,11 @@
 package Project2Part4StockBot;
 
 //Import statements for ArrayLists, Comparator, List, and Map.
+//Also imports file reading and writing classes that will be important for the stock smoother.
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -10,11 +15,16 @@ import java.util.Map;
  * @author Mia Watts, Garret Chmielewski, Heather Krencicki
  * This file contains a base version of a stock bot that calculates the RSI (Relative Strength Index)
  * and determines whether to buy or sell from the index and moving average.
+ * Jake Cubernot helped me understand how the 70 30 rule works (and how to implement it).
  */
 public class StockBot {
     //Helper comments from Jake Cubernot to explain the 70-30 rule in stocks.
-    //Above 70 sell
-    //below 30 buy
+    //Above 70 sell, below 30 buy.
+
+    //Creates the stock array that will hold closing values to be smoothed.
+    ArrayList<Double> stockValueArray = new ArrayList<>();
+
+    ArrayList<Double> smoothedStockValueArray = new ArrayList<>();
 
     /**
      * This method calculates the RSI value following the instruction file given in class.
@@ -81,14 +91,114 @@ public class StockBot {
         }
     }
 
-    public static void main(String[] args) {
+    /**
+     * This method is a data smoother for the stock closing prices. The method reads the
+     * data from the CSV stock file, smooths it, then writes the new, smoothed values to a new CSV file.
+     * @param file - file to be read.
+     * @param window - the range of values to the left and right that will be averaged.
+     * @throws IOException - in case the file cannot be found, read, or written to.
+     */
+    public void stockDataSmoother(String file, int window) throws IOException {
+        //Creates a new BufferedReader object that will read the plotter results file.
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+        //Declares a variable that will hold the current line in the file.
+        String currentLine;
+        //While loop that continues until the next line is empty.
+        while((currentLine = reader.readLine()) != null) {
+            //Stores values found within the file into an array, splitting each by commas.
+            String[] values = currentLine.split(",");
+            //For loop that adds all values in the array to the result ArrayList.
+            for (String value : values) {
+                //Adds information to the result array.
+                stockValueArray.add(Double.valueOf(value));
+            }
+        }
+        //Creates the PrintWriter object that will be used to write values to the CSV file.
+        PrintWriter writer = new PrintWriter("StockSmootherResults.csv");
+        //Main for loop that will iterate through the values read from the salt file.
+        for(int i = 0; i < stockValueArray.size(); i++) {
+            //The next three variables, currentValue, leftSum, and rightSum, store the current index
+            //in the array with the salted values, the sum of the values to the left of the
+            //current index, and the sum of the values to the right of the current index, respectively.
+            double currentValue = stockValueArray.get(i);
+            double leftSum = 0.0;
+            double rightSum = 0.0;
+            //Represents the current amount of values that have been considered which
+            //will help with calculating the average (i.e., add two numbers and divide by 2 to get average.
+            //Two would be the count).
+            int count = 1;
+            //Keeps track of the bound to ensure values not needing to be added aren't.
+            int bound = 1;
+            //Checks to see if the current index is not 0 or not the last element.
+            if (i != 0 && i != stockValueArray.size() - 1) {
+                //While loop to ensure the bound never surpasses the window.
+                while(bound <= window) {
+                    //Checks to see if the index minus the bound is greater than 0.
+                    if(i - bound >= 0) {
+                        //Adds one to count and calculates the current sum of the elements to the left.
+                        count = count + 1;
+                        leftSum = leftSum + stockValueArray.get(i - bound);
+                    }
+                    //Checks to see if the index added to the bound is less than the array size.
+                    else if(i + bound < stockValueArray.size()) {
+                        //Adds one to count and calculates the current sum of the elements to the right.
+                        count = count + 1;
+                        rightSum = rightSum + stockValueArray.get(i + bound);
+                    }
+                    //Adds one to the bound so the while loop doesn't run forever.
+                    bound++;
+                }
+            }
+            //Next case which runs when the index is 0.
+            else if (i == 0) {
+                //While loop to ensure the bound never surpasses the window.
+                while(bound <= window) {
+                    //Checks to see if the index added to the bound is less than the size of the array.
+                    if(i + bound < stockValueArray.size()) {
+                        //Adds one to count and adds to the right sum.
+                        count = count + 1;
+                        rightSum = rightSum + stockValueArray.get(i + bound);
+                    }
+                    //Adds one to the bound.
+                    bound++;
+                }
+            }
+            //Final case to check if the index is the last element in the array.
+            else if (i == stockValueArray.size() - 1) {
+                //While loop to ensure the bound never surpasses the window.
+                while(bound <= window) {
+                    //Checks to see if the index minus the bound is greater than 0.
+                    if (i - bound >= 0) {
+                        //Adds one to count and adds to the left sum.
+                        count = count + 1;
+                        leftSum = leftSum + stockValueArray.get(i - bound);
+                    }
+                    //Adds one to the bound.
+                    bound++;
+                }
+            }
+            //Calculates the moving average, i.e., the new value.
+            double smoothedValue = (leftSum + rightSum + currentValue) / count;
+            //Adds the smoothed value to the array.
+            smoothedStockValueArray.add(smoothedValue);
+        }
+        //Writes the new, smoothed values to the file.
+        for (Double number : smoothedStockValueArray) {
+            writer.println(number);
+        }
+        //Closes the file to avoid leaks.
+        writer.close();
+    }
+
+    public static void main(String[] args) throws IOException {
         //Saves file path.
         String csvFilePath = "src/Project2Part4StockBot/NTDOY.csv";
+        //Creates a StockBot object that will be used when smoothing occurs.
+        StockBot test = new StockBot();
 
         //Uses reader to get the stock data and store it.
         Map<String, StockReader> stockMap = StockEvaluator.readData(csvFilePath);
-        List<StockReader > stockData = new ArrayList<>(stockMap.values());
-
+        List<StockReader> stockData = new ArrayList<>(stockMap.values());
         //Sorts the list by date.
         stockData.sort(Comparator.comparing(StockReader::getDate));
 
@@ -103,5 +213,7 @@ public class StockBot {
         catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
         }
+        //Calls the stock data smoother on the stock file's closing values with a window of 2.
+        test.stockDataSmoother("src/Project2Part4StockBot/NTDOYClosingValues.csv", 2);
     }
 }
