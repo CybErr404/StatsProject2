@@ -36,22 +36,22 @@ public class StockBot {
      * @return a String that gives details on the starting budget, new budget, whether to hold stocks,
      * and
      */
-    public String tradeEvaluator(int currentShares, double currentRSI, int budget, double currentPrice) {
-        double currentBudget = 0.0;
+    public String tradeEvaluator(int currentShares, double currentRSI, double budget, double currentPrice) {
+        double currentBudget;
         String hold = "";
         int held = 0;
         int sold = 0;
         int bought = 0;
         String bankrupt = "N";
         if(currentRSI < 30) {
-            int stockTotal = budget - (int) (currentPrice * (budget / currentPrice));
-            currentBudget = budget - stockTotal;
+            bought = (int) (budget / currentPrice);
+            double stockTotal = currentPrice * bought;
+            currentBudget = (budget - stockTotal);
+            currentShares = (int) (currentShares + (budget / currentPrice));
+            hold = "N";
             if(currentBudget < 0) {
                 bankrupt = "Y";
             }
-            currentShares = (int) (currentShares + (budget / currentPrice));
-            hold = "N";
-            bought = (int) (budget / currentPrice);
         }
         else if(currentRSI > 70) {
             currentBudget = budget + (currentShares * currentPrice);
@@ -236,7 +236,7 @@ public class StockBot {
 
     public static void main(String[] args) throws IOException {
         //Holds the budget that determines how many stocks I can buy.
-        int stockBudget = 1000;
+        double stockBudget = 1000.0;
         //Holds the current price of one Nintendo stock.
         double stockPrice = 12.25;
         //Saves file path.
