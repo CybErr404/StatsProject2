@@ -50,7 +50,8 @@ Excel sheet which holds all data and a graph that contains each series.
 before edits had been made. These were tests to make sure the program was working.
 
 **Documentation -** This folder contains documentation for the Java plotter, salter, and smoother, documentation for the Apache Commons Math and JFreeChart plotters, 
-salters, and smoothers, and Stats Library results and documentation.
+salters, and smoothers, and Stats Library results and documentation. It also includes Stock Bot documentation and results, including graphs, method descriptions, and 
+images that show what the output looks like when the program is run within the console.
 
 **Formula Sheet -** Holds the current formula sheet that has all formulas covered in the course up to this point.
 
