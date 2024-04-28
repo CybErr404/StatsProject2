@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Added closing value file" />
+    <list default="true" id="cc524f5e-e550-4805-9cc8-ef0b726e5438" name="Changes" comment="Reorganized files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,20 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711051296640</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Finished MATLAB work">
-      <created>1713905614467</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1713905614467</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Finished MATLAB work">
-      <created>1713905628327</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1713905628327</updated>
     </task>
     <task id="LOCAL-00038" summary="Finished MATLAB work">
       <created>1713905707284</created>
@@ -465,7 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714341993047</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Added bot smoothing results">
+      <created>1714342097465</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1714342097465</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Reorganized files">
+      <created>1714342162328</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1714342162328</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,8 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edited file structure" />
-    <MESSAGE value="Finished plotter, salter, and smoother documentation" />
     <MESSAGE value="Rearranged files" />
     <MESSAGE value="Fixed numerous things" />
     <MESSAGE value="Removed strange file" />
@@ -505,6 +503,8 @@
     <MESSAGE value="Fixed submissions" />
     <MESSAGE value="Finished stock bot smoother" />
     <MESSAGE value="Added closing value file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added closing value file" />
+    <MESSAGE value="Added bot smoothing results" />
+    <MESSAGE value="Reorganized files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized files" />
   </component>
 </project>
