@@ -32,10 +32,7 @@ smoother. These programs require external .jar files to run which can be found t
 XYSeries and graph objects, and the Apache Commons Math version uses a random number generator, a sine method, and a mean / smoothing method that is different
 than those within Java's classes.
 
-**Project 2 Part 4 Stock Bot -** This folder contains both the Stock Bot main class and the Stock Bot tester class that are used to track stock trends to determine whether
-someone should buy or sell at a specific point. The bot uses RSI (Relative Strength Index) to help with eventually calculating a moving average which is similar
-to the original data smoother written in Java (no .jar files). To program the Stock Bot, I worked with Garret Chmielewski, Heather Krencicki (not currently in stats), and
-Jake Cubernot. Huge thanks to everyone who worked with me or helped!
+**Project 2 Part 4 Stock Bot -** This folder contains both the Stock Bot main class and the Stock Bot reader/evaluator classes that are used to track stock trends to determine whether someone should buy, hold, or sell at a specific point. The bot uses RSI (Relative Strength Index) to help with eventually calculating a moving average which is similar to the original data smoother written in Java (no .jar files). To program the Stock Bot RSI calculator, I worked with Garret Chmielewski, Heather Krencicki (not currently in stats), and Jake Cubernot. Huge thanks to everyone who worked with me or helped!
 
 
 **WRITTEN WORKS -**
